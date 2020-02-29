@@ -13,7 +13,7 @@ We are going to see the following example.
 import pandas as pd
 from bcg_analysis.bcg_analysis import Generate_BCG
 
-# you can find the toy_dataset.csv file in the repo directory
+# you can find the toy_dataset.csv file in the example folder in the repo
 df_example = pd.read_csv('toy_dataset.csv',sep=';')
 
 df = Generate_BCG(df_example)
@@ -24,8 +24,11 @@ df.plot_bcg()
 # generate the table 
 df.df_bcg()
 ```
+This is going to be the result:
 
+![](example/plot_bcg_example.PNG)
 
+![](example/df_bcg_example.PNG)
 
 # About BCG / Growth-Share matrix
 
