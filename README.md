@@ -20,13 +20,15 @@ df = Generate_BCG(df_example)
 
 # generate the plot
 df.plot_bcg()
+```
 
+![](example/plot_bcg_example.PNG)
+
+
+```
 # generate the table 
 df.df_bcg()
 ```
-This is going to be the result:
-
-![](example/plot_bcg_example.PNG)
 
 ![](example/df_bcg_example.PNG)
 
