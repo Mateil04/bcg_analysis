@@ -15,6 +15,10 @@ User - Converted - [Features]
 
 So the first column has the users, the second one is the 1 - 0 binary column stating is the user converted or not, and then all the features.
 
+Input dataframe example:
+
+![](example/df_pivot_input_example.PNG)
+
 ```
 import pandas as pd
 from bcg_analysis import Generate_BCG
