@@ -10,7 +10,7 @@ We are going to see the following example.
 
 # Example
 
-* **Important**: in this package version, you have to input a dataframe, having as columns:
+**Important**: in this package version, you have to input a dataframe, having as columns:
 User - Converted - [Features]
 
 So the first column has the users, the second one is the 1 - 0 binary column stating is the user converted or not, and then all the features.
