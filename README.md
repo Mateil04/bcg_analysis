@@ -32,7 +32,10 @@ df.df_bcg()
 
 ![](example/df_bcg_example.PNG)
 
+* **Important**: in this package version, you have to input a dataframe, having as columns:
+User - Converted - [Features]
 
+So the first column is one row per user, the second one the 1 - 0 binary column stating is the user converted or not, and then all the features.
 
 # About BCG / Growth-Share matrix
 https://en.wikipedia.org/wiki/Growth%E2%80%93share_matrix
