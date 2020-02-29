@@ -4,7 +4,7 @@ A feature importance analysis, using BCG (Growth-Share) matrix.
 
 This analysis help to identify key features, and groping or clustering them into 4 different categories, as the BCG matrix states (see link at the bottom for more information).
 
-To install the package, run this command in the terminal: pip install bcganalysis
+To install the package, run this command in the terminal: **pip install bcganalysis**
 
 We are going to see the following example.
 
