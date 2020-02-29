@@ -26,7 +26,7 @@ df.plot_bcg()
 
 
 ```
-# generate the table 
+# generate the table behind the plot
 df.df_bcg()
 ```
 
