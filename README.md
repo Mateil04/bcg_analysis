@@ -12,7 +12,7 @@ We are going to see the following example.
 
 ```
 import pandas as pd
-from bcg_analysis.bcg_analysis import Generate_BCG
+from bcg_analysis import Generate_BCG
 
 # you can find the toy_dataset.csv file in the example folder in the repo
 df_example = pd.read_csv('toy_dataset.csv',sep=';')
