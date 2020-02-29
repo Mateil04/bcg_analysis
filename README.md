@@ -30,15 +30,3 @@ df.df_bcg()
 https://en.wikipedia.org/wiki/Growth%E2%80%93share_matrix
 
 https://www.feedough.com/what-is-a-bcg-matrix-examples-how-to-guide/
-
-bachmidi
-An analysis of Bach's works using midi files
-In this analysis, we rank the notes and chords used in the works of J.S Bach. Furthermore, we identify the most used progressions of chords. Finally, we group works in clusters, according to their chords. For a discussion of the results of this code, please take a look at this article
-
-The creat-csv.sh script converts a .midi file to a .csv file with the help of mid2asc script. The code of mid2asc was copied from this site. Only the compiled file is included here.
-
-The midi files should be put in the midi folder. The files were downloaded from The Mutopia Project. Only a few example files are included here.
-
-The make_all_csv.sh scripts converts all the .midi files to .csv files and produces summary files for the notes, the chords and the chord progression of each midi files. In the end, the files are concatanated to summary files.
-
-These summary files are analyzed in the jupyter notebook process_total_files. The notebook also uses the keys.csv file, which includes the music key of each work of Bach (indexed by their Bach works catalogue number) as scrapped from Wikipedia.
