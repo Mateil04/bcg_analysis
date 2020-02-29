@@ -25,6 +25,8 @@ df.plot_bcg()
 df.df_bcg()
 ```
 
+
+
 # About BCG / Growth-Share matrix
 
 https://en.wikipedia.org/wiki/Growth%E2%80%93share_matrix
