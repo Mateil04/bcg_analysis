@@ -1,6 +1,8 @@
 # BCG Analysis
 
-A feature importance analysis, using BCG (Growth-Share) matrix.
+I built this package while analyzing UX behaviour: the objective is to measure in a simple, fast, but effective way, how the key features of an app/webpage impacts over the conversion.
+
+It a feature importance analysis, using BCG (Growth-Share) matrix.
 
 This analysis help to identify key features, and groping or clustering them into 4 different categories, as the BCG matrix states (see link at the bottom for more information).
 
@@ -41,6 +43,9 @@ df.df_bcg()
 
 ![](example/df_bcg_example.PNG)
 
+# A deeper explanation
+
+https://towardsdatascience.com/analyzing-feature-importance-user-behaviour-and-ux-performance-cbf32d55eff8
 
 # About BCG / Growth-Share matrix
 https://en.wikipedia.org/wiki/Growth%E2%80%93share_matrix
