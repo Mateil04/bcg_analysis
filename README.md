@@ -1,12 +1,12 @@
 # BCG Analysis
 
-I built this package with the objective is to measure in a simple, fast, but effective way, how the key features of an app/webpage impact over the conversion.
+I built this package with the objective of measuring in a simple, fast, but effective way, the impact of the key features of an app/webpage over the conversion.
 
-It a feature importance analysis, using BCG (Growth-Share) matrix.
+It is a feature importance analysis, using BCG (Growth-Share) matrix.
 
 This analysis helps to identify key features, grouping or clustering them into 4 different categories, as the BCG matrix states (see link at the bottom for more information).
 
-To install the package, run this command in the terminal: pip install bcganalysAis
+To install the package, run this command in the terminal: pip install bcganalysis
 
 We are going to see the following example.
 
