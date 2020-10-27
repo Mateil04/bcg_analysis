@@ -12,14 +12,18 @@ We are going to see the following example.
 
 # Example
 
-**Important**: in this package version, you have to input a dataframe, having as columns:
-User - Converted - [Features]
+We are going to use the toy dataset that is in the **example** folder. This is a dataframe which columns are **user_id** - **converted** - **event** - **datetime**.
 
-So the first column has the users, the second one is the 1 - 0 binary column stating is the user converted or not, and then all the features.
+The meaning of the columns are:
+user_id: the ID of the user
+converted: stating if the user converted or not
+event: the kind of feature that the user used
+datetime: time that this event was made.
 
-Input dataframe example:
+Let's upload the toy dataset and start the analysis:
 
-![](example/df_pivot_input_example.PNG)
+
+![](example/dataset_example.PNG)
 
 ```
 import pandas as pd
