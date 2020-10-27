@@ -22,6 +22,15 @@ The meaning of the columns are:
 
 Let's upload the toy dataset and start the analysis:
 
+```
+import pandas as pd
+
+file_path = 'toy_dataset_sept.csv'
+
+df = pd.read_csv(file_path).iloc[:,1:]
+
+df.head(5)
+```
 
 ![](example/dataset_example.PNG)
 
