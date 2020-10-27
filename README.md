@@ -32,7 +32,7 @@ df = pd.read_csv(file_path).iloc[:,1:]
 df.head(5)
 ```
 
-![](example/dataset_example.PNG)
+![](example/000_dataset_example.PNG)
 
 ```
 import pandas as pd
