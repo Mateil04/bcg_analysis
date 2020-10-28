@@ -32,7 +32,7 @@ df = pd.read_csv(file_path).iloc[:,1:]
 df.head(5)
 ```
 
-<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_dataset_example.PNG" width="300">
+<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_dataset_example.PNG" width="500">
 ![test image size](example/000_dataset_example.PNG)
 
 ```
