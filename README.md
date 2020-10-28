@@ -1,4 +1,4 @@
-# BCG Analysis
+## BCG Analysis
 
 I built this package with the objective of measuring in a simple, fast, but effective way, the impact of the key features of an app/webpage over the conversion.
 
