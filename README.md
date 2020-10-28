@@ -33,29 +33,41 @@ df.head(5)
 ```
 
 <img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_dataset_example.PNG" width="500">
-![test image size](example/000_dataset_example.PNG)
+
+Great, so we have the table with all the events done per user. Now let's analyze which features are common among the users that have converted. First, we build a pivot table, so we know which actions (and how many times) were done per user:
 
 ```
-import pandas as pd
+# we import the package first
 from bcg_analysis import Generate_BCG
 
-# you can find the toy_dataset.csv file in the example folder in the repo
-df_example = pd.read_csv('toy_dataset.csv',sep=';')
+# then we instantiate the object for the analysis 
+features = Generate_BCG(df)
 
-df = Generate_BCG(df_example)
+# and we get the pivot table
+features.get_pivot(index=['user_id','converted'],columns='event')
 
-# generate the plot
-df.plot_bcg()
+# we find the pivot table in the attribute df_pivot
+df_pivot = features.df_pivot
+
+# let's see what we get
+df_pivot.head(6)
+```
+<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_df_pivot_example.PNG" width="500">
+
+Then we want to see which actions were the most important to produce a conversion, and by how many users were those actions made (penetration). So if a particular action has high conversion but low penetration, we would like to make the feature more visible, to penetration increases and so does conversion. Let's see:
+
+```
+# then we generate the chart with penetration and conversion
+features.generate_chart(threshold=1)
+
+# we find the pivot table in the attribute df_pivot
+df_chart = features.df_chart
+
+# let's see what we get
+df_chart.head(3)
 ```
 
-![](example/plot_bcg_example.PNG)
-
-```
-# generate the table behind the plot
-df.df_bcg()
-```
-
-![](example/df_bcg_example.PNG)
+<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_df_chart.PNG" width="500">
 
 # A deeper explanation
 
