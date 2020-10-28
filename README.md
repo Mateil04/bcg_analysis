@@ -1,4 +1,4 @@
-## BCG Analysis
+# BCG Analysis
 
 I built this package with the objective of measuring in a simple, fast, but effective way, the impact of the key features of an app/webpage over the conversion.
 
@@ -87,27 +87,29 @@ plt.rcParams["figure.figsize"] = fig_size
 # now yes, let's plot it
 features.plot_bcg()
 ```
-<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_final_plot.png" width="500">
+<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_final_plot.png" width="800">
 
 We can see that the "search" actions has a lot of penetration (image a site like Amazon, everyone that goes to the site, makes a search action). Only 40% of them convert. However, if a user adds something to cart, chances to convert go up to 80%, but it has a low penetration (done by 20% of the users). So one idea might be to make the "add to cart" buttom bigger!
 
-# For a deeper explanation of this methodology plese read my article in Medium
+## For a deeper explanation of this methodology...
+
+Please have a look at my article in Medium:
 
 https://towardsdatascience.com/analyzing-feature-importance-user-behaviour-and-ux-performance-cbf32d55eff8
 
-# More resources about BCG / Growth-Share matrix
+## More resources about BCG / Growth-Share matrix
 
 https://en.wikipedia.org/wiki/Growth%E2%80%93share_matrix
 
 https://www.feedough.com/what-is-a-bcg-matrix-examples-how-to-guide/
 
 
-# Need help, or have any questions?
+## Need help, or have any questions?
 
 Please send an email to:
 mat.eil1991@gmail.com
 
-# How to cite
+## How to cite
 
 Please cite BCG Analysis by Matias Eiletz if it helps your research. You can use the following BibTeX entry:
 
@@ -117,7 +119,7 @@ Please cite BCG Analysis by Matias Eiletz if it helps your research. You can use
   year      = {2020}
 }
 
-# Development
+## Development
 
 Pull requests are welcome.
 
