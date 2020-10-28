@@ -32,7 +32,8 @@ df = pd.read_csv(file_path).iloc[:,1:]
 df.head(5)
 ```
 
-![](example/000_dataset_example.PNG = 250x250)
+![test image size](example/000_dataset_example.PNG){:class="img-responsive"}
+![test image size](example/000_dataset_example.PNG){:height="50%" width="50%"}
 
 ```
 import pandas as pd
