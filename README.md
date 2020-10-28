@@ -15,10 +15,10 @@ We are going to see the following example.
 We are going to use the toy dataset that is in the **example** folder. This is a dataframe which columns are **user_id** - **converted** - **event** - **datetime**.
 
 The meaning of the columns are:
-- user_id: the ID of the user
-- converted: stating if the user converted or not
-- event: the kind of feature that the user used
-- datetime: time that this event was made.
+- user_id: the ID of the user.
+- converted: stating if the user converted or not.
+- event: the kind of feature that the user used and that we want to see its impact overt the conversion.
+- datetime: day and time that this event was made.
 
 Let's upload the toy dataset and start the analysis:
 
@@ -32,7 +32,7 @@ df = pd.read_csv(file_path).iloc[:,1:]
 df.head(5)
 ```
 
-![](example/000_dataset_example.PNG)
+![](example/000_dataset_example.PNG=250x250)
 
 ```
 import pandas as pd
