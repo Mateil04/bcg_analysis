@@ -32,7 +32,7 @@ df = pd.read_csv(file_path).iloc[:,1:]
 df.head(5)
 ```
 
-<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_dataset_example.PNG" width="500">
+<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_dataset_example.PNG" width="400">
 
 Great, so we have the table with all the events done per user. Now let's analyze which features are common among the users that have converted. First, we build a pivot table, so we know which actions (and how many times) were done per user:
 
@@ -68,6 +68,27 @@ df_chart.head(3)
 ```
 
 <img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_df_chart.png" width="300">
+
+Great, now let's represent this in a plot! In the BCG Matrix.
+
+```
+# let's first make sure of importing matplotlib
+import matplotlib.pyplot as plt
+
+# also to set a good plot size
+fig_size = plt.rcParams["figure.figsize"]
+print ("Current size:", fig_size)
+# let's make the plots a bit bigger than the default
+# set figure width to 14 and height to 6
+fig_size[0] = 10
+fig_size[1] = 6
+plt.rcParams["figure.figsize"] = fig_size
+
+# now yes, let's plot it
+features.plot_bcg()
+```
+<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_final_plot.png" width="500">
+
 
 # A deeper explanation
 
