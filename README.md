@@ -89,18 +89,35 @@ features.plot_bcg()
 ```
 <img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_final_plot.png" width="500">
 
+We can see that the "search" actions has a lot of penetration (image a site like Amazon, everyone that goes to the site, makes a search action). Only 40% of them convert. However, if a user adds something to cart, chances to convert go up to 80%, but it has a low penetration (done by 20% of the users). So one idea might be to make the "add to cart" buttom bigger!
 
-# A deeper explanation
+# For a deeper explanation of this methodology plese read my article in Medium
 
 https://towardsdatascience.com/analyzing-feature-importance-user-behaviour-and-ux-performance-cbf32d55eff8
 
-# About BCG / Growth-Share matrix
+# More resources about BCG / Growth-Share matrix
+
 https://en.wikipedia.org/wiki/Growth%E2%80%93share_matrix
 
 https://www.feedough.com/what-is-a-bcg-matrix-examples-how-to-guide/
 
 
-# Questions / concact
+# Need help, or have any questions?
 
 Please send an email to:
 mat.eil1991@gmail.com
+
+# How to cite
+
+Please cite BCG Analysis by Matias Eiletz if it helps your research. You can use the following BibTeX entry:
+
+@inproceedings{
+  author    = {Matias Eiletz},
+  title     = {Feature importance analysis with BCG Matrix},
+  year      = {2020}
+}
+
+# Development
+
+Pull requests are welcome.
+
