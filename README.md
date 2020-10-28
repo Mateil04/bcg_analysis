@@ -52,7 +52,7 @@ df_pivot = features.df_pivot
 # let's see what we get
 df_pivot.head(6)
 ```
-<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_df_pivot_example.PNG" width="500">
+<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_df_pivot_example.png" width="500">
 
 Then we want to see which actions were the most important to produce a conversion, and by how many users were those actions made (penetration). So if a particular action has high conversion but low penetration, we would like to make the feature more visible, to penetration increases and so does conversion. Let's see:
 
@@ -67,7 +67,7 @@ df_chart = features.df_chart
 df_chart.head(3)
 ```
 
-<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_df_chart.PNG" width="500">
+<img src="https://raw.githubusercontent.com/Mateil04/bcg_analysis/master/example/000_df_chart.png" width="500">
 
 # A deeper explanation
 
